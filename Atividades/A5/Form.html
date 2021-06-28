@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Formulário</title>
+</head>
+<body>
+    <h1>Cadastro de Cliente</h1>
+    <form>
+        <fieldset>
+        <legend>Dados Pessoais:</legend>
+        <label for="name">Nome completo:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="nasc">Data de nascimento:</label><br>
+        <input type="date" id="nasc" name="nasc" min="1906-01-01" max="2003-12-31"><br>
+        <label for="end">Endereço:</label><br>
+        <input type="text" id="end" name="end"><br>
+        <label for="bairro">Bairro:</label><br>
+        <input type="text" id="bairro" name="bairro"><br>
+        <label for="cidade">Cidade:</label><br>
+        <input type="text" id="cidade" name="cidade" autofocus ><br>
+        <label for="estado">Estado:</label><br>
+        <input list="Estados">
+            <datalist id="Estados">
+            <option value="AC">
+            <option value="AL">
+            <option value="AP">
+            <option value="AM">
+            <option value="BA">
+            <option value="CE">
+            <option value="DF">
+            <option value="ES">
+            <option value="GO">
+            <option value="MA">
+            <option value="MT">
+            <option value="MS">
+            <option value="MG">
+            <option value="PA">
+            <option value="PB">
+            <option value="PR">
+            <option value="PE">
+            <option value="PI">
+            <option value="PI">
+            <option value="RR">
+            <option value="RO">
+            <option value="RJ">
+            <option value="RN">
+            <option value="RS">
+            <option value="SC">
+            <option value="SP">
+            <option value="SE">
+            <option value="SC">
+</datalist><br>
+<label for="name">CEP:</label><br>
+        <input type="text" id="CEP" name="CEP"><br>
+        <label for="sexo">Sexo:</label><br>
+        <select id="sexo" name="sexo">
+            <option value="F">Feminino</option>
+            <option value="M">Masculino</option>
+            <option value="NB">Não-Binário</option>
+            </select><br>
+<label for="solict">Solicitação do cliente:</label><br>
+<textarea name="solict" rows="10" cols="22">
+</textarea><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Apagar">
+        </fieldset>
+        </form>        
+</body>
