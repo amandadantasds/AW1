@@ -5,20 +5,21 @@
 <title>Formulário</title>
 </head>
 <body>
+
     <h1>Cadastro de Cliente</h1>
     <form>
         <fieldset>
         <legend>Dados Pessoais:</legend>
         <label for="name">Nome completo:</label><br>
-        <input type="text" id="name" name="name"><br>
+        <input type="text" id="name" name="name" required><br>
         <label for="nasc">Data de nascimento:</label><br>
-        <input type="date" id="nasc" name="nasc" min="1906-01-01" max="2003-12-31"><br>
+        <input type="date" id="nasc" name="nasc" min="1906-01-01" max="2003-12-31" required><br>
         <label for="end">Endereço:</label><br>
-        <input type="text" id="end" name="end"><br>
+        <input type="text" id="end" name="end" required><br>
         <label for="bairro">Bairro:</label><br>
-        <input type="text" id="bairro" name="bairro"><br>
+        <input type="text" id="bairro" name="bairro" required><br>
         <label for="cidade">Cidade:</label><br>
-        <input type="text" id="cidade" name="cidade" autofocus ><br>
+        <input type="text" id="cidade" name="cidade" required><br>
         <label for="estado">Estado:</label><br>
         <input list="Estados">
             <datalist id="Estados">
@@ -50,17 +51,27 @@
             <option value="SP">
             <option value="SE">
             <option value="SC">
-</datalist><br>
+</datalist required><br>
+
 <label for="name">CEP:</label><br>
         <input type="text" id="CEP" name="CEP"><br>
-        <label for="sexo">Sexo:</label><br>
+
+<label for="phone">Telefone</label><br>
+        <input type="tel" class="form-control" id="phone" name="phone"
+        placeholder="(99) 9999-9999"
+        pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})"
+        title="Número de telefone precisa ser no formato (99) 9999-9999"/><br>
+
+
+<label for="sexo">Sexo:</label><br>
         <select id="sexo" name="sexo">
             <option value="F">Feminino</option>
             <option value="M">Masculino</option>
             <option value="NB">Não-Binário</option>
             </select><br>
+            
 <label for="solict">Solicitação do cliente:</label><br>
-<textarea name="solict" rows="10" cols="22">
+<textarea name="solict" rows="10" cols="22" required>
 </textarea><br>
 
         <input type="submit" value="Enviar">
