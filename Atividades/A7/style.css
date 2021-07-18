@@ -1,4 +1,4 @@
-/*RESET*/
+/* reset */
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ img {
     height: auto;
 }
 
-/*VARIABLES*/
+/* variables */
 :root {
     --header-height: 4.5rem;
 
@@ -34,7 +34,7 @@ img {
     --body-color: hsl(0 0% 98%);
 }
 
-/*BASE*/
+/* base */
 
 html {
     scroll-behavior: smooth;
@@ -87,7 +87,7 @@ body {
     );
 }
 
-/*LAYOUT*/
+/* layout */
 .container {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -135,7 +135,7 @@ main {
     margin-top: calc(var(--header-height) + 2rem);
 }
 
-/* LOGO */
+/* logo */
 .logo {
     font: 700 1.31rem 'Poppins', sans-serif; 
 }
@@ -144,7 +144,7 @@ main {
     color: var(--base-color);
 }
 
-/*NAVIGATION*/
+/* navigation */
 nav {
     height: var(--header-height);
     display: flex;
@@ -194,7 +194,7 @@ nav .menu ul {
     display: none;
 }
 
-/* MOSTRAR MENU */
+/* mostrar menu */
 nav.show .menu {
     opacity: 1;
     visibility: visible;
@@ -219,7 +219,7 @@ nav.show ul.grid {
     gap: 4rem;
 }
 
-/* TOGGLE MENU */
+/* toggle menu */
 .toggle {
     color: var(--base-color);
     font-size: 1.5rem;
@@ -242,7 +242,7 @@ nav.show div.icon-close{
     top: 1.5rem;
 }
 
-/*HOME*/
+/* home */
 #home {
     overflow: hidden;
 }
@@ -290,7 +290,7 @@ nav.show div.icon-close{
     margin-bottom: 2rem;
 }
 
-/* ABOUT */
+/* about */
 #about {
     background: white;
 }
@@ -328,7 +328,7 @@ nav.show div.icon-close{
     margin-right: 1.5rem;
 }
 
-/* SERVICES */
+/* services */
 .cards.grid{
     gap: 1.5rem;
 }
