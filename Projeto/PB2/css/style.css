@@ -7,6 +7,10 @@
     font-family: 'Poppins', arial;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .sinopse h1 {
     position: absolute;
     width: 37.938rem;
