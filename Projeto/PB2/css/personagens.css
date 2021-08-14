@@ -7,6 +7,10 @@
     font-family: 'Poppins', arial;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .vincenzo{
     width: 6.250rem;
     height: 6.250rem;
