@@ -353,3 +353,138 @@ footer {
 
 }
 
+@media(max-width: 900px){
+
+  body {
+    overflow-x: hidden;
+}
+
+.sinopse h1 {
+  left: 5.188rem;
+  top: 32rem;
+  font-size: 4.100rem;
+}
+
+.sinopse p {
+  position: absolute;
+  left: 1.700rem;
+  top: 33rem;
+  width: 25rem;
+  line-height: 2.1rem;
+  text-align: justify;
+  
+  font-size: 1.300rem;
+}
+ 
+
+.sinopse img{
+  position: absolute;
+  width: 24.125rem;
+  height: 18.375rem;
+  left: 32.063rem;
+  top: 34rem;
+}
+
+.vermelho img {
+  position: absolute;
+  width: 24.125rem;
+  height: 18.813rem;
+  left: 30.375rem;
+  top: 35rem;
+}
+
+.sinopse iframe{
+  position: absolute;
+  width: 24.125rem;
+  height: 18rem;
+  left: 29rem;   
+  top: 36.063rem;
+  z-index: 1;
+}
+
+.curiosidades h1 {
+  left: 28rem;
+  top: 60rem;
+  font-size: 3.5rem;
+}
+
+.slide img{
+  width: 55rem;
+  height: 26rem;
+}
+
+.slider{
+  margin-top: 23rem;
+}
+
+.navigation-manual{
+  margin-top: 23.375rem;
+  margin-left: 55%;
+  width: 20rem;
+}
+
+.manual-btn{
+  padding: 0.300rem;
+  border-radius: 0.500rem;
+}
+
+.final1 img{
+  position: absolute;
+  width: 100vw;
+  height: 973px;
+  top: 161%;
+
+  z-index: 1;
+}
+
+.final2 img{
+  position: absolute;
+  width: 100vw;
+  height: 955px;
+  top: 165%;
+}
+
+.avaliações .form{
+  position: absolute;
+  width: 510px;
+  height: 520px;
+  margin-left: 209px;
+  margin-top: -14%;
+ }
+
+ footer{
+  position: relative;
+  width: 100%;
+  height: 121px;
+  left: 0px;
+  top: 435px;
+
+  background-color: #E5E5E5;
+  z-index: 111;
+ }
+
+ .linkedin img {
+  left: 356px;
+}
+
+.email img {
+  left: 428px;
+}
+
+.github img {
+  left: 499px; 
+}
+
+.namefooter p {
+  left: 331px;
+  top: 70px;
+}
+
+.datafooter p {
+  left: 329px;
+  top: 90px;
+}
+
+
+
+}
