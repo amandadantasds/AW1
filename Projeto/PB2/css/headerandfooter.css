@@ -164,7 +164,7 @@ header {
       }
 
     
-    @media(max-width: 600px){
+    @media (min-width: 0px) and (max-width: 600px){
         .banner img {
           max-width: 580px;
         }
