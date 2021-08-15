@@ -236,11 +236,11 @@ header {
         
         }
 
-        @media(min-width: 0) and (max-width: 481px) {
+          @media(min-width: 0) and (max-width: 481px) {
           .name{
-            max-width: 35%;
+            max-width: 42%;
             margin-left: 4%;
-            margin-top: 14%;
+            margin-top: 16%;
             }
 
             .imagem img{
@@ -269,30 +269,21 @@ header {
               }
             
               .nav  {
-                margin-left: -149%;
-                color: red;
-                transition: all 0.4s;
+                margin-left: -376%;
               }
     
               nav a{
                 position: relative;
-                padding: 12%;
+                padding: 10%;
                 z-index: 1;
                 left: 399%;
                 font-size: 1rem;
                 background-color: black;
                 
               }
-        
-              .nav ul ul {
-                position: static;
-                overflow: hidden;
-                max-height: 0;
-                transition: all .4s;
-              }
     
               .nav ul li {
-                width: 296px;
+                width: 270px;
                 font-size: 1.300rem;}
             
               .nav ul li:hover ul {
@@ -302,4 +293,4 @@ header {
           }
   
       
-      
+       
