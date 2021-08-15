@@ -8,7 +8,7 @@
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .sinopse h1 {
@@ -280,7 +280,7 @@ body {
     position: absolute;
     width: 100%;
     height: 995px;
-    top: 235%;
+    top: 214%;
     z-index: 1;
 }
 
@@ -288,7 +288,7 @@ body {
     position:absolute;
     width: 100%;
     height: 995px;
-    top: 235%;
+    top: 215%;
 }
 
 footer {
@@ -356,6 +356,8 @@ footer {
   text-align: center;
 
 }
+
+
 
 @media(max-width: 900px){
 
@@ -436,16 +438,16 @@ footer {
   position: absolute;
   width: 100vw;
   height: 973px;
-  top: 161%;
+  top: 146%;
 
-  z-index: 1;
+  z-index: 1%;
 }
 
 .final2 img{
   position: absolute;
   width: 100vw;
   height: 955px;
-  top: 165%;
+  top: 150%;
 }
 
 .avaliações .form{
@@ -489,6 +491,295 @@ footer {
   top: 90px;
 }
 
+@media(min-width: 0px) and (max-width:769px){
 
+  body {
+    overflow-x: hidden;
+}
+
+.sinopse h1 {
+  left: 4.188rem;
+  top: 26.5rem;
+  font-size: 3.450rem;
+}
+
+.sinopse p {
+  top: 27.5rem;
+  width: 22rem;
+
+  font-size: 1.200rem;
+}
+ 
+
+.sinopse img{
+  width: 19.125rem;
+  height: 15.375rem;
+  left: 28.063rem;
+  top: 29rem;
+}
+
+.vermelho img {
+ width: 19.125rem;
+ height: 15.813rem;
+ left: 27.375rem;
+ top: 30rem;
+}
+
+.sinopse iframe{
+  width: 19.125rem;
+  height: 16rem;
+  left: 26rem;
+  top: 31.063rem;
+}
+
+.curiosidades h1 {
+  left: 24.5rem;
+  top: 52rem;
+  font-size: 2.900rem;
+}
+
+.slide img{
+  width: 48rem;
+  height: 23rem;
+}
+
+.slider{
+  margin-top: 24rem;
+}
+
+.navigation-manual{
+  margin-top: 21rem;
+  margin-left: 55%;
+  width: 20rem;
+}
+
+.manual-btn{
+  padding: 0.250rem;
+  border-radius: 0.450rem;
+}
+
+.final1 img{
+  position: absolute;
+  width: 100vw;
+  height: 900px;
+  top: 146%;
+
+  z-index: 1%;
+}
+
+.final2 img{
+  position: absolute;
+  width: 100vw;
+  height: 900px;
+  top: 150%;
+}
+
+.avaliações .form{
+  width: 470px;
+  height: 479px;
+  margin-left: 148px;
+  margin-top: -23%;
+ }
+
+ .form .h1 {
+  margin-top: 13%;
+ }
+
+ .form .h1 p {
+  margin-left: 6%;
+  font-size: 1.1rem;
+ 
+}
+ .avaliações .form input#idNome {
+  width: 378px;
+  height: 40px;
+ }
+
+ .avaliações .form input#idEmail {
+  width: 378px;
+ }
+
+ .avaliações .form textarea#idTexto {
+  width: 378px;
+ }
+
+ .botoes input, label {
+  margin-left: 2%;
+}
+
+ footer{
+  top: 345px;
+ }
+
+ .linkedin img {
+  left: 289px;
+}
+
+.email img {
+  left: 361px;
+}
+
+.github img {
+  left: 433px; 
+}
+
+.namefooter p {
+  left: 266px;
+}
+
+.datafooter p {
+  left: 263px;
+}
+
+}
+
+}
+
+@media(min-width: 0) and (max-width: 481px) {
+  body {
+    overflow-x: hidden;
+}
+
+.sinopse h1 {
+  left: 6.188rem;
+  top: 17.5rem;
+  font-size: 4rem
+}
+
+.sinopse p {
+  top: 18.5rem;
+  width: 26rem;
+
+  font-size: 1.200rem;
+  text-align: justify;
+}
+ 
+
+.sinopse img{
+  width: 26.125rem;
+  height: 16.375rem;
+  left: 1.5rem;
+  top: 41rem;
+}
+
+.vermelho img {
+  width: 24.125rem;
+  height: 14.375rem;
+  left: 2.5rem;
+  top: 42rem;
+}
+
+.sinopse iframe{
+  width: 22.125rem;
+  height: 12.375rem;
+  left: 3.5rem;
+  top: 43rem;
+}
+
+.curiosidades h1 {
+  left: 3.188rem;
+  top: 61.5rem;
+  font-size: 3.2rem;
+}
+
+.slide img{
+  width: 29rem;
+  height: 15rem;
+}
+
+.slider{
+  margin-top: 47rem;
+}
+
+.navigation-manual{
+  margin-top: 13.5rem;
+  margin-left: 40%;
+  width: 20rem;
+}
+
+.manual-btn{
+  padding: 0.250rem;
+  border-radius: 0.450rem;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.final1 img{
+  top: 142%;
+
+  z-index: 1%;
+}
+
+.final2 img{
+  top: 142%;
+}
+
+.avaliações .form {
+  width: 375px;
+  height: 442px;
+  margin-left: 60px;
+  margin-top: -68%;
+}
+
+ .form .h1 {
+  margin-top: 13%;
+ }
+
+ .form .h1 h1 {
+  margin-left: 8%;
+
+  font-size: 3rem;
+ }
+ .form .h1 p {
+  margin-left: 5%;
+  font-size: 0.90rem;
+ 
+}
+ .avaliações .form input#idNome {
+  width: 292px;
+ }
+
+ .avaliações .form input#idEmail {
+  width: 292px;
+ }
+
+ .avaliações .form textarea#idTexto {
+  width: 292px;
+ }
+
+ .botoes input{
+  width: 100px;
+    }
+
+.botoes input, label {
+  margin-left: 5%;
+  }
+
+
+ footer{
+  width: 104%;
+ }
+
+ .linkedin img {
+  left: 147px;
+}
+
+.email img {
+  left: 219px;
+}
+
+.github img {
+  left: 291px; 
+}
+
+.namefooter p {
+  left: 125px;
+}
+
+.datafooter p {
+  left: 122px;
+}
 
 }
