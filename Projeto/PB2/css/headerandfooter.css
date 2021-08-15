@@ -236,7 +236,7 @@ header {
         
         }
 
-          @media(min-width: 0) and (max-width: 481px) {
+        @media(min-width: 0) and (max-width: 481px) {
           .name{
             max-width: 42%;
             margin-left: 4%;
