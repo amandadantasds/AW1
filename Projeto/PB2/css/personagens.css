@@ -1,0 +1,1474 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', arial;
+}
+
+body {
+    overflow-x: hidden;
+  }
+
+.vincenzo{
+    width: 6.250rem;
+    height: 6.250rem;
+}
+
+h1{
+    position: absolute;
+    left: 680px;
+    top: 800px;
+    font-family: Nunito;
+    font-size: 77px;
+    line-height: 105px;
+    color: #85000F;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.vincenzo .vinazul img{
+
+    position: absolute;
+    width: 750px;
+    height: 577px;
+    left: -200px;
+    top: 825px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.vincenzo .vinvermelho img{
+    position: absolute;
+    width: 775px;
+    height: 593px;
+    left: -150px;
+    top: 834px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+
+.vincenzo .vincenzofoto img{
+    position: relative;
+    width: 594px;
+    height: 616px;
+    top: -95px;
+    z-index: 1;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.vincenzo .retangulo img{
+
+    position: absolute;
+    width: 610px;
+    height: 190px;
+    top: 1350px;
+    z-index: 1;
+
+}
+
+.vincenzo .nome img{
+    position: absolute;
+    width: 547px;
+    height: 94px;
+    left: 25px;
+    top: 1400px;
+    z-index: 11;
+}
+
+.vincenzo p{
+    position: absolute;
+    width: 680px;
+    height: 580px;
+    left: 630px;
+    top: 906px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 54px;
+    text-align: justify;
+    color: #000000;
+}
+
+.hongYuChan {
+    width: 100%;
+    height: 100vh;
+}
+
+.hongYuChan .chayoungfoto img{
+    position: relative;
+    width: 525px;
+    height: 440px;
+    left: 790px;
+    top: 554px;
+    z-index: 1;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+.hongYuChan .chayoungazul img{
+    position: absolute;
+    width: 525px;
+    height: 440px;
+    left: 870px;
+    top: 1576px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.hongYuChan .chayoungvermelho img{
+    position: absolute;
+    width: 525px;
+    height: 440px;
+    left: 850px;
+    top: 1586px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.hongYuChan .yuchanfoto img{
+    position: relative;
+    width: 710px;
+    height: 420px;
+    left: 330px;
+    top: 126px;
+    z-index: 1;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+.hongYuChan .yuchanazul img{
+    position: absolute;
+    width: 490px;
+    height: 390px;
+    left: 640px;
+    top: 1626px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.hongYuChan .yuchanvermelho img{
+    position: absolute;
+    width: 469px;
+    height: 370px;
+    left: 620px;
+    top: 1639px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.hongYuChan .retangulo img{
+    position: absolute;
+    width: 750px;
+    height: 215px;
+    left: 600px;
+    top: 1920px;
+    z-index: 1;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.hongYuChan .nome img{
+    position: relative;
+    left: 625px;
+    top: 44px;
+    transform: rotate(-1deg);
+    z-index: 11;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.hongYuChan .p p{
+    position: absolute;
+    width: 575px;
+    height: 526px;
+    left: 29px;
+    top: 1580px;
+    font-size: 26px;
+    line-height: 54px;
+}
+
+.hongYuChan .p1 p{
+    position: absolute;
+    width: 730px;
+    height: 52px;
+    left: 450px;
+    top: 2120px;
+
+    font-size: 26px;
+    line-height: 54px;
+}
+
+.hongYuChan .p2 p{
+    position: absolute;
+    width: 730px;
+    height: 52px;
+    left: 29px;
+    top: 2176px;
+
+    font-size: 26px;
+    line-height: 54px;
+}
+
+.hongYuChan .p3 p{
+    position: absolute;
+    width: 730px;
+    height: 52px;
+    left: 707px;
+    top: 2176px;
+
+    font-size: 26px;
+    line-height: 54px;
+}
+.hongYuChan p{
+    position: absolute;
+    width: 1340px;
+    height: 142px;
+    left: 30px;
+    top: 2232px;
+    font-size: 26px;
+    line-height: 54px;
+}
+
+.jangjuwoo .jangjuwoofoto img{
+    position: absolute;
+    width: 385px;
+    height: 493px;
+    left: 22px;
+    top: 2330px;
+
+    z-index: 1;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+.jangjuwoo .jangjuwooazul img{
+    position: absolute;
+    width: 643px;
+    height: 491px;
+    left: -145px;
+    top: 2330px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.jangjuwoo .jangjuwoovermelho img{
+    position: absolute;
+    width: 650px;
+    height: 493px;
+    left: -128px;
+    top: 2330px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.jangjuwoo .hanseofoto img{
+    position: relative;
+    width: 369px;
+    height: 386px;
+    left: 244px;
+    top: 735px;
+
+    z-index: 1;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+.jangjuwoo .hanseoazul img{
+    position: absolute;
+    width: 606px;
+    height: 434px;
+    left: 144px;
+    top: 2409px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.jangjuwoo .hanseovermelho img{
+    position: absolute;
+    width: 568px;
+    height: 433px;
+    left: 144px;
+    top: 2410px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.jangjuwoo .retangulo img{
+    position: absolute;
+    width: 705px;
+    left: -23px;
+    top: 2730px;
+
+    z-index: 1;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.jangjuwoo .nome img{
+    position: relative;
+    left: 8px;
+    top: 670px;
+    z-index: 11;
+
+}
+
+.jangjuwoo .p p{
+    position: absolute;
+    text-align: right;
+    width: 635px;
+    height: 600px;
+    left: 660px;
+    top: 2330px;
+
+    font-size: 27px;
+    line-height: 54px;
+}
+
+.jangjuwoo p{
+    position: absolute;
+    text-align: right;
+    width: 635px;
+    height: 600px;
+    left: 660px;
+    top: 2700px;
+
+    font-size: 27px;
+    line-height: 54px;
+}
+
+.hanseunghyuk .hanseunghyukfoto img{
+    position: absolute;
+    width: 635px;
+    height: 517px;
+    left: 542px;
+    top: 2978px;
+
+
+    z-index: 1;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+.hanseunghyuk .hanseunghyukazul img{
+    position: absolute;
+    width: 690px;
+    height: 518px;
+    left: 500px;
+    top: 2978px;
+
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.hanseunghyuk .hanseunghyukvermelho img{
+    position: absolute;
+    width: 690px;
+    height: 517px;
+    left: 510px;
+    top: 2978px;
+
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.hanseunghyuk .myungheefoto img{
+    position: relative;
+    width: 800px;
+    height: 473px;
+    left: 700px;
+    top: 716px;
+
+    z-index: 1;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+.hanseunghyuk .myungheeazul img{
+    position: absolute;
+    width: 600px;
+    height: 485px;
+    left: 861px;
+    top: 2920px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.hanseunghyuk .myungheevermelho img{
+    position: absolute;
+    width: 620px;
+    height: 503px;
+    left: 836px;
+    top: 2927px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.hanseunghyuk .retangulo img{
+    position: absolute;
+    left: 528px;
+    top: 3285px;
+
+    z-index: 1;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.hanseunghyuk .nome img{
+    position: relative;
+    left: 550px;
+    top: 660px;
+
+    z-index: 11
+
+}
+
+.hanseunghyuk p{
+    position: absolute;
+    text-align: left;
+    width: 530px;
+    height: 580px;
+    left: 22px;
+    top: 2951px;
+
+    font-size: 26px;
+    line-height: 54px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 115px;
+    left: 0px;
+    top: 880px;
+    background-color: #E5E5E5;
+    z-index: 111;
+}
+
+.linkedin img {
+    position: absolute;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    left: 559px;
+    top: 15px;
+
+}
+
+.email img {
+    position: absolute;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    left: 631px;
+    top: 15px;
+}
+
+.github img {
+    position: absolute;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    left: 703px;
+    top: 15px;
+    
+}
+
+.namefooter p {
+    position: absolute;
+    width: 225px;
+    height: 30px;
+    left: 541px;
+    top: 70px;
+
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.datafooter p {
+    position: absolute;
+    width: 225px;
+    height: 30px;
+    left: 541px;
+    top: 90px;
+
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+@media(max-width: 900px){
+    .vincenzo{
+        width: 6.250rem;
+        height: 6.250rem;
+    }
+    
+    h1{
+    left: 389px;
+    top: 521px;
+    font-size: 61px;
+    }
+    
+    .vincenzo .vinazul img{
+    width: 643px;
+    height: 483px;
+    top: 543px;
+    
+    }
+    
+    .vincenzo .vinvermelho img{
+    width: 619px;
+    height: 474px;
+    top: 552px; 
+    }
+    
+    .vincenzo .vincenzofoto img{
+        width: 458px;
+        height: 472px;
+        top: -81px;
+        left: -36%
+    }
+    
+    .vincenzo .retangulo img{
+    width: 419px;
+    height: 165px;
+    top: 937px;
+    transform: rotate(1deg);
+    }
+    
+    .vincenzo .nome img{
+    width: 383px;
+    height: 78px;
+    left: 12px;
+    top: 980px;
+    transform: rotate(2deg);
+    }
+    
+    .vincenzo p{
+        width: 431px;
+        left: 415px;
+        top: 609px;
+        font-size: 21px;
+        line-height: 41px;
+        text-align: right;
+    }
+    
+    .hongYuChan {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .hongYuChan .chayoungfoto img{
+    width: 441px;
+    height: 382px;
+    left: 529px;
+    top: 495px;
+        }
+    
+    .hongYuChan .chayoungazul img{
+        width: 502px;
+        height: 402px;
+        left: 549px;
+        top: 1219px;
+    }
+    
+    .hongYuChan .chayoungvermelho img{
+        width: 495px;
+        height: 393px;
+        left: 543px;
+        top: 1228px;
+    }
+    
+    .hongYuChan .yuchanfoto img{
+        width: 611px;
+        height: 378px;
+        left: 177px;
+        top: 131px;
+        }
+    
+    .hongYuChan .yuchanazul img{
+        width: 393px;
+        height: 305px;
+        left: 436px;
+        top: 1278px;
+    }
+    
+    .hongYuChan .yuchanvermelho img{
+        width: 396px;
+        height: 325px;
+        left: 422px;
+        top: 1277px;
+    }
+    
+    .hongYuChan .retangulo img{
+        left: 424px;
+        top: 1481px;
+        width: 50rem;
+    }
+    
+    .hongYuChan .nome img{
+        left: 454px;
+        top: 30px;
+        width: 26rem;
+        height: 8rem;
+        transform: rotate(5deg);
+    }
+    
+    .hongYuChan .p p{
+    width: 405px;
+    height: 526px;
+    left: 22px;
+    top: 1196px;
+    text-align: left;
+    font-size: 21px;
+    line-height: 45px;
+    }
+    
+    .hongYuChan .p1 p{
+    left: 242px;
+    top: 1735px;
+    font-size: 21px;
+    line-height: 45px;
+    }
+    
+    .hongYuChan .p2 p{
+    left: 21px;
+    top: 1780px;
+    font-size: 21px;
+    line-height: 45px;
+    }
+    
+    .hongYuChan .p3 p{
+    left: 22px;
+    top: 1820px;
+    font-size: 21px;
+    line-height: 45px;
+    }
+    .hongYuChan p{
+    left: 503px;
+    top: 1819px;
+    font-size: 21px;
+    line-height: 45px;
+    }
+    
+    .jangjuwoo .jangjuwoofoto img{
+        width: 303px;
+        height: 397px;
+        left: -11px;
+        top: 1888px;
+        }
+    
+    .jangjuwoo .jangjuwooazul img{
+        width: 505px;
+        height: 396px;
+        left: -145px;
+        top: 1883px;
+    }
+    
+    .jangjuwoo .jangjuwoovermelho img{
+        width: 505PX;
+        height: 396PX;
+        left: -128px;
+        top: 1889px;
+    }
+    
+    .jangjuwoo .hanseofoto img{
+        width: 284px;
+        height: 294px;
+        left: 194px;
+        top: 575px;
+        }
+    
+    .jangjuwoo .hanseoazul img{
+        width: 414px;
+        height: 327px;
+        left: 137px;
+        top: 1935px;
+    }
+    
+    .jangjuwoo .hanseovermelho img{
+        width: 416px;
+        height: 313px;
+        left: 128px;
+        top: 1946px;
+    }
+    
+    .jangjuwoo .retangulo img{
+        width: 544px;
+        left: -23px;
+        top: 2179px;
+    }
+    
+    .jangjuwoo .nome img{
+        left: 20px;
+        width: 30rem;
+        top: 520px;
+    }
+    
+    .jangjuwoo .p p{
+        text-align: right;
+        width: 375px;
+        height: 571px;
+        left: 497px;
+        top: 1900px;
+        
+        font-size: 21px;
+        line-height: 45px;
+    }
+    
+    .jangjuwoo p{
+        left: 238px;
+        top: 2300px;
+        font-size: 21px;
+        line-height: 45px;
+    }
+    
+    .hanseunghyuk .hanseunghyukfoto img{
+        width: 426px;
+        height: 344px;
+        left: 342px;
+        top: 2477px;
+        }
+    
+    .hanseunghyuk .hanseunghyukazul img{
+        width: 419px;
+         height: 348px;
+        left: 329px;
+        top: 2461px;
+    }
+    
+    .hanseunghyuk .hanseunghyukvermelho img{
+        width: 413px;
+        height: 338px;
+        left: 339px;
+        top: 2472px;
+    }
+    
+    .hanseunghyuk .myungheefoto img{
+        width: 641px;
+        height: 370px;
+        left: 361px;
+        top: 629px;
+        }
+    
+    .hanseunghyuk .myungheeazul img{
+        width: 480px;
+        height: 368px;
+        left: 485px;
+        top: 2401px;
+    }
+    
+    .hanseunghyuk .myungheevermelho img{
+        width: 473px;
+        height: 364px;
+        left: 473px;
+        top: 2406px;
+    }
+    
+    .hanseunghyuk .retangulo img{
+        left: 341px;
+        top: 2672px;
+        width: 36rem;
+    }
+    
+    .hanseunghyuk .nome img{
+        left: 359px;
+        top: 571px;
+        width: 32rem;
+    }
+    
+    .hanseunghyuk p{
+        width: 363px;
+        height: 580px;
+        left: 22px;
+        top: 2425px;
+        font-size: 21px;
+        line-height: 45px
+    }
+    
+    footer{
+        position: relative;
+        width: 100%;
+        height: 121px;
+        left: 0px;
+        top: 843px;
+      
+        background-color: #E5E5E5;
+        z-index: 111;
+       }
+      
+       .linkedin img {
+        left: 356px;
+      }
+      
+      .email img {
+        left: 428px;
+      }
+      
+      .github img {
+        left: 499px; 
+      }
+      
+      .namefooter p {
+        left: 331px;
+        top: 70px;
+      }
+      
+      .datafooter p {
+        left: 329px;
+        top: 90px;
+      }
+    
+}
+
+@media(max-width:769px){
+    .vincenzo{
+        width: 6.250rem;
+        height: 6.250rem;
+    }
+    
+    h1{
+    left: 377px;
+    top: 450px;
+    font-size: 48px
+    }
+    
+    .vincenzo .vinazul img{
+    width: 650px;
+    height: 436px;
+    top: 464px;
+    
+    }
+    
+    .vincenzo .vinvermelho img{
+    width: 579px;
+    height: 411px;
+    top: 475px;
+    }
+    
+    .vincenzo .vincenzofoto img{
+    width: 387px;
+    height: 416px;
+    top: -50px;
+    left: -41%;
+    }
+    
+    .vincenzo .retangulo img{
+    width: 342px;
+    height: 155px;
+    top: 806px;
+    transform: rotate(-1deg);
+    }
+    
+    .vincenzo .nome img{
+    width: 312px;
+    height: 76px;
+    left: 12px;
+    top: 844px;
+    transform: rotate(0deg);
+    }
+    
+    .vincenzo p{
+    width: 401px;
+    left: 335px;
+    top: 548px;
+    font-size: 19px;
+    line-height: 39px;
+    }
+    
+    .hongYuChan {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .hongYuChan .chayoungfoto img{
+    width: 350px;
+    height: 321px;
+    left: 461px;
+    top: 436px;
+        }
+    
+    .hongYuChan .chayoungazul img{
+    width: 401px;
+    height: 317px;
+    left: 483px;
+    top: 1057px;
+    }
+    
+    .hongYuChan .chayoungvermelho img{
+    width: 396px;
+    height: 318px;
+    left: 474px;
+    top: 1061px;
+    }
+    
+    .hongYuChan .yuchanfoto img{
+    width: 464px;
+    height: 302px;
+    left: 197px;
+    top: 137px;
+        }
+    
+    .hongYuChan .yuchanazul img{
+     width: 327px;
+    height: 263px;
+    left: 388px;
+    top: 1091px;
+    }
+    
+    .hongYuChan .yuchanvermelho img{
+    width: 335px;
+    height: 253px;
+    left: 367px;
+    top: 1102px;
+    }
+    
+    .hongYuChan .retangulo img{
+    left: 372px;
+    top: 1294px;
+    width: 27rem;
+    height: 9rem;
+    }
+    
+    .hongYuChan .nome img{
+    left: 405px;
+    top: 47px;
+    width: 21rem;
+    height: 7rem;
+    transform: rotate(5deg);
+    }
+    
+    .hongYuChan .p p{
+    width: 395px;
+    height: 526px;
+    left: 19px;
+    top: 1074px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 39px;
+    }
+    
+    .hongYuChan .p1 p{
+        left: 311px;
+        top: 1464px;
+        font-size: 18px;
+        line-height: 39px;
+    }
+    
+    .hongYuChan .p2 p{
+    left: 19px;
+    top: 1503px;
+    font-size: 18px;
+    line-height: 39px;
+    }
+    
+    .hongYuChan .p3 p{
+    left: 19px;
+    top: 1545px;
+    font-size: 18px;
+    line-height: 38px;
+    }
+    .hongYuChan p{
+    left: 435px;
+    top: 1544px;
+    font-size: 18px;
+    line-height: 39px;
+    }
+    
+    .jangjuwoo .jangjuwoofoto img{
+    width: 261px;
+    height: 367px;
+    left: -11px;
+    top: 1597px;
+        }
+    
+    .jangjuwoo .jangjuwooazul img{
+    width: 480px;
+    height: 367px;
+    left: -145px;
+    top: 1598px;
+    }
+    
+    .jangjuwoo .jangjuwoovermelho img{
+    width: 472PX;
+    height: 368PX;
+    left: -128px;
+    top: 1600px;
+    }
+    
+    .jangjuwoo .hanseofoto img{
+    width: 248px;
+    height: 268px;
+    left: 161px;
+    top: 124px;
+        }
+    
+    .jangjuwoo .hanseoazul img{
+    width: 344px;
+    height: 309px;
+    left: 122px;
+    top: 1652px;
+    }
+    
+    .jangjuwoo .hanseovermelho img{
+    width: 354px;
+    height: 297px;
+    left: 107px;
+    top: 1663px;
+    }
+    
+    .jangjuwoo .retangulo img{
+    width: 449px;
+    left: -23px;
+    top: 1887px;
+    }
+    
+    .jangjuwoo .nome img{
+    left: 16px;
+    width: 24rem;
+    top: 80px;
+    }
+    
+    .jangjuwoo .p p{
+    text-align: right;
+    width: 321px;
+    height: 571px;
+    left: 418px;
+    top: 1610px;
+    font-size: 18px;
+    line-height: 39px;
+    }
+    
+    .jangjuwoo p{
+    left: 180px;
+    top: 1968px;
+    font-size: 18px;
+    width: 35rem;
+    line-height: 39px;
+    }
+    
+    .hanseunghyuk .hanseunghyukfoto img{  
+    width: 426px;
+    height: 344px;
+    left: 303px;
+    top: 2198px;
+        }
+    
+    .hanseunghyuk .hanseunghyukazul img{
+    width: 406px;
+    height: 340px;
+    left: 297px;
+    top: 2189px;
+    }
+    
+    .hanseunghyuk .hanseunghyukvermelho img{
+    width: 388px;
+    height: 338px;
+    left: 310px;
+    top: 2196px;
+    }
+    
+    .hanseunghyuk .myungheefoto img{
+    width: 502px;
+    height: 327px;
+    left: 385px;
+    top: 241px;
+        }
+    
+    .hanseunghyuk .myungheeazul img{
+    width: 352px;
+    height: 336px;
+    left: 490px;
+    top: 2132px;
+    }
+    
+    .hanseunghyuk .myungheevermelho img{
+    width: 366px;
+    height: 328px;
+    left: 473px;
+    top: 2139px;
+    }
+    
+    .hanseunghyuk .retangulo img{
+    left: 324px;
+    top: 2396px; 
+    width: 36rem;
+    }
+    
+    .hanseunghyuk .nome img{
+        left: 359px;
+        top: 207px;
+        width: 24rem;
+        height: 3rem;
+    }
+    
+    .hanseunghyuk p{
+    width: 325px;
+    left: 22px;
+    top: 2088px;
+    font-size: 18px;
+    line-height: 39px;
+    }
+    
+    footer{
+        top: 345px;
+       }
+      
+       .linkedin img {
+        left: 356px;
+      }
+      
+      .email img {
+        left: 428px;
+      }
+      
+      .github img {
+        left: 499px; 
+      }
+      
+      .namefooter p {
+        left: 331px;
+        top: 70px;
+      }
+      
+      .datafooter p {
+        left: 329px;
+        top: 90px;
+      }
+}
+
+@media(min-width: 0) and (max-width: 481px) {
+
+    .vincenzo{
+        width: 6.250rem;
+        height: 6.250rem;
+    }
+    
+    h1{
+        left: 57px;
+        top: 285px;
+    }
+    
+    .vincenzo .vinazul img{
+        width: 440px;
+        height: 386px;
+        top: 402px;
+        margin-left: 11rem;
+    
+    }
+    
+    .vincenzo .vinvermelho img{
+        width: 462px;
+        height: 387px;
+        top: 407px;
+        margin-left: 8rem;
+    }
+    
+    .vincenzo .vincenzofoto img{
+        width: 361px;
+        height: 397px;
+        top: 35px;
+        left: 46%;
+    }
+    
+    .vincenzo .retangulo img{
+        width: 501px;
+        height: 165px;
+        top: 711px;
+        margin-left: -1rem;
+        transform: rotate(-7deg);
+    }
+    
+    .vincenzo .nome img{
+        width: 373px;
+        height: 76px;
+        left: 48px;
+        top: 752px;
+        transform: rotate(-7deg);
+    }
+    
+    .vincenzo p{
+        width: 436px;
+        left: 13px;
+        top: 857px;
+        font-size: 18px;
+        line-height: 36px;
+        text-align: justify;
+    }
+    
+    .hongYuChan {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .hongYuChan .chayoungfoto img{
+        width: 350px;
+        height: 321px;
+        left: 98px;
+        top: 852px;
+        }
+    
+    .hongYuChan .chayoungazul img{
+        width: 401px;
+        height: 317px;
+        left: 110px;
+        top: 1308px;    
+    }
+    
+    .hongYuChan .chayoungvermelho img{
+        width: 396px;
+        height: 318px;
+        left: 108px;
+        top: 1316px;
+    }
+    
+    .hongYuChan .yuchanfoto img{
+        width: 475px;
+        height: 302px;
+        left: -186px;
+        top: 563px;
+        }
+    
+    .hongYuChan .yuchanazul img{
+        width: 327px;
+        height: 263px;
+        left: 7px;
+        top: 1361px;
+    }
+    
+    .hongYuChan .yuchanvermelho img{
+        width: 335px;
+        height: 262px;
+        left: -10px;
+        top: 1371px;
+    }
+    
+    .hongYuChan .retangulo img{
+        left: -17px;
+        top: 1560px;
+        width: 45rem;
+        height: 11rem;
+        transform: rotate(5deg);
+    }
+    
+    .hongYuChan .nome img{
+        left: 23px;
+        top: 488px;
+        width: 26rem;
+    transform: rotate(10deg);
+    }
+    
+    .hongYuChan .p p{
+        width: 438px;
+        height: 528px;
+        left: 13px;
+        top: 1713px;
+        text-align: justify;
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .hongYuChan .p1 p{
+    left: 13px;
+    top: 2070px;
+    font-size: 18px;
+    line-height: 36px;
+    }
+    
+    .hongYuChan .p2 p{
+        left: 13px;
+        width: 28rem;
+        top: 2110px;
+        font-size: 18px;
+        line-height: 36px;
+    }
+    
+    .hongYuChan .p3 p{
+        left: 31px;
+        top: 2147px;
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .hongYuChan p{
+        left: 13px;
+        top: 2181px;
+        font-size: 18px;
+        line-height: 36px;
+    }
+    
+    .jangjuwoo .jangjuwoofoto img{
+        width: 243px;
+        height: 367px;
+        left: 36px;
+        top: 2243px;
+        }
+    
+    .jangjuwoo .jangjuwooazul img{
+        width: 441px;
+        height: 371px;
+        left: -77px;
+        top: 2238px;
+    }
+    
+    .jangjuwoo .jangjuwoovermelho img{
+        width: 423PX;
+        height: 361PX;
+        left: -65px;
+        top: 2248px;
+    }
+    
+    .jangjuwoo .hanseofoto img{
+        width: 237px;
+        height: 268px;
+        left: 161px;
+        top: 914px;}
+    
+    .jangjuwoo .hanseoazul img{
+        width: 344px;
+        height: 309px;
+        left: 122px;
+        top: 2290px;
+    }
+    
+    .jangjuwoo .hanseovermelho img{
+        width: 354px;
+        height: 297px;
+        left: 107px;
+        top: 2299px;
+    }
+    
+    .jangjuwoo .retangulo img{
+    width: 512px;
+    left: -23px;
+    top: 2522px;
+    transform: rotate(3deg);
+    }
+    
+    .jangjuwoo .nome img{
+        left: 16px;
+        width: 27rem;
+        top: 876px;
+        transform: rotate(3deg);
+    }
+    
+    .jangjuwoo .p p{
+        text-align: justify;
+        width: 439px;
+        height: 571px;
+        left: 13px;
+        top: 2649px;
+        font-size: 18px;
+        line-height: 36px;
+    }
+    
+    .jangjuwoo p{
+    left: 12px;
+    top: 2899px;
+    font-size: 18px;
+    width: 28rem;
+    line-height: 36px;
+    text-align: justify;
+    }
+    
+    .hanseunghyuk .hanseunghyukfoto img{  
+        width: 426px;
+        height: 344px;
+        left: -16px;
+        top: 3053px;
+        }
+    
+    .hanseunghyuk .hanseunghyukazul img{
+        width: 406px;
+        height: 340px;
+        left: -12px;
+        top: 3040px;
+    }
+    
+    .hanseunghyuk .hanseunghyukvermelho img{
+        width: 388px;
+        height: 338px;
+        left: -2px;
+        top: 3047px;
+    }
+    
+    .hanseunghyuk .myungheefoto img{
+    width: 502px;
+    height: 327px;
+    left: 57px;
+    top: 1273px;
+        }
+    
+    .hanseunghyuk .myungheeazul img{
+        width: 352px;
+        height: 336px;
+        left: 160px;
+        top: 3011px;
+    }
+    
+    .hanseunghyuk .myungheevermelho img{
+        width: 366px;
+        height: 328px;
+        left: 147px;
+        top: 3023px;
+    }
+    
+    .hanseunghyuk .retangulo img{
+        left: -12px;
+        top: 3249px;
+        width: 36rem;
+        transform: rotate(3deg);
+    }
+    
+    .hanseunghyuk .nome img{
+    left: 16px;
+    top: 1209px;
+    width: 27rem;
+    height: 3rem;
+    transform: rotate(4deg);
+    }
+    
+    .hanseunghyuk p{
+        width: 443px;
+        left: 12px;
+        top: 3373px;
+        text-align: justify;
+        font-size: 18px;
+        line-height: 36px;
+    }
+    
+   
+ footer{
+    width: 104%;
+    top: 1687px;
+   }
+  
+   .linkedin img {
+    left: 147px;
+  }
+  
+  .email img {
+    left: 219px;
+  }
+  
+  .github img {
+    left: 291px; 
+  }
+  
+  .namefooter p {
+    left: 125px;
+  }
+  
+  .datafooter p {
+    left: 122px;
+  }
+  
+}
+
+
