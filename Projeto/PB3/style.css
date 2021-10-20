@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --light-blue: #5073B3;
+    --beige: #F5EAAA;
+    --brown: #B39450;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+}
+
+/* header */
+
+header{
+    background-color: var(--light-blue);
+    display: block;
+    width: 100vw;
+    text-align: center;
+}
+
+ul li a{
+    font-family: Bebas Neue;
+    text-align: left;
+    padding: 1.25rem 0.31rem;
+    font-size: 2rem;
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+}
+ul li a:hover{
+    opacity: 0.9;
+}
+
+ul {
+    top: 2rem;
+    list-style: none;
+}
+
+label img{
+    position: absolute;
+    display: block;
+    align-items: left;
+
+    padding-top: 1rem;
+    width: 8rem;
+    
+    z-index: 1;
+}
+
+.logo{
+    font-family: Bebas Neue;
+    text-align: right;
+    font-style: normal;
+    font-size: 3.125rem;
+    font-weight: normal;
+    margin-right: 2rem;
+    padding-top: 0.5rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--brown);
+    color: var(--beige);
+}
+
+#navigation{
+    background-color: var(--light-blue);
+    position: absolute;
+    width: 21rem;
+    left: -21rem;
+    height: 100vh;
+    text-align: left;
+}
+
+/* main */
+
+body {
+    background-color: var(--beige);
+}
+
+.totoroheader h1{
+    font-family: Bebas Neue;
+    text-align: center;
+    margin-top: -6rem;
+    color: var(--light-blue);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 90px;
+}
+.totoroheader img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35rem;
+}
+
+.totoroheader a{
+    font-family: Bebas Neue;
+    padding: 0rem 11rem 3rem;
+    color: var(--light-blue);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+/* modal edição*/
+
+.editanime-overlay{
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    visibility: hidden;
+
+    z-index: 1;
+}
+
+.editanime-overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.editanime{
+    background: var(--brown);
+    padding: 2rem 4rem; 
+    border-radius: 1rem;
+    position: relative;
+}
+
+/* anime form */
+#formanime h2{
+    font-family: Bebas Neue;
+    font-size: 3rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    margin-top: 0;
+}
+
+/* modal */
+
+.modal-overlay{
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    visibility: hidden;
+
+    z-index: 1;
+}
+
+.modal-overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal{
+    background: var(--brown);
+    padding: 2rem 4rem; 
+    border-radius: 1rem;
+    position: relative;
+}
+
+/* form */
+
+#form{
+    max-width: 500px;
+}
+
+#form h2{
+    font-family: Bebas Neue;
+    font-size: 3rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    margin-top: 0;
+}
+
+input{
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+    background-color: var(--beige);
+    padding: 1.5rem 5rem;
+    width: 100%;
+}
+
+.input-group small{
+    opacity: 0.4;
+}
+
+.input-group.actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group.actions .button,
+.input-group.actions button{
+   width: 48%;
+}
+
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 5rem;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+form img{
+    width: 2rem;
+    margin-top: 0.8rem;
+}
+
+/* form button */
+button{
+    width: 100%;
+    height: 45px;
+    margin-top: 0.8rem;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: Bebas Neue;
+    font-size: 1rem;
+    color: black;
+    background: var(--beige);
+
+    padding: 0;
+
+    border-radius: 0.25rem;
+
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.90;
+}
+
+.button.new{
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+/* list */
+
+.buttonacao{
+    display: inline;   
+}
+
+.lista{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lista img{
+    width: 2rem;
+}
+
+#lista li{
+    font-family: Archivo Narrow;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    padding: 2rem;
+    width: 70vw;
+    background-color: var(--light-blue);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*footer*/
+
+footer {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    background-color: var(--light-blue);
+}
+
+p{
+    font-family: Bebas Neue;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 544px) {
+    .logo{
+        font-size: 2rem;
+    }
+    .totoroheader img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 19rem;
+    }
+
+    .totoroheader h1{
+        font-size: 4rem;
+        padding: 1rem
+}
+    
+label img{
+    width: 4rem;
+}
+
+#navigation{
+    width: 19rem;
+}
+
+.totoroheader a {
+    padding: 0rem 1rem 0rem;
+    font-size: 1.5rem;
+    
+}
+
+#lista li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 82vw;
+}
+
+.lista a {
+    background-color: none;
+}
+
+.button.new{
+    margin-bottom: 1rem;
+}
+
+.lista img {
+    width: 1rem;
+}
+footer{
+margin-top: 0;
+}
+
+}
+
+
+
+
