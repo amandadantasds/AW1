@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --light-blue: #5073B3;
+    --pink: #E8615E; 
+    --purple: #2C226B;
+    --beige: #F5EAAA;
+    --brown: #B39450;
+    --light-green: #4BE37B;
+    --dark-green: #219C47;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+/* header */
+
+header{
+    background-color: var(--light-blue);
+    display: block;
+    width: 100vw;
+    text-align: center;
+}
+
+header.chihiro{
+    background-color: var(--pink);
+}
+
+
+header.castelo{
+    background-color: var(--purple);
+}
+
+ul li a{
+    font-family: Bebas Neue;
+    text-align: left;
+    padding: 1.25rem 0.31rem;
+    font-size: 2rem;
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    color: #f7f7f5;
+
+}
+ul li a:hover{
+    opacity: 0.9;
+}
+
+ul {
+    top: 2rem;
+    list-style: none;
+}
+
+label img{
+    position: absolute;
+    display: block;
+    align-items: left;
+
+    padding-top: 1rem;
+    width: 8rem;
+    
+    z-index: 1;
+}
+
+#logo{
+    font-family: Bebas Neue;
+    text-align: right;
+    font-style: normal;
+    font-size: 3.125rem;
+    font-weight: normal;
+    margin-right: 2rem;
+    padding-top: 0.5rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--brown);
+}
+
+#logo.totoro{
+    color: var(--beige);
+} 
+
+#logo.chihiro{
+    color: var(--light-green);
+}
+
+#logo.castelo{
+    color: var(--beige);
+} 
+
+#navigation{
+    position: absolute;
+    width: 21rem;
+    left: -21rem;
+    height: 100vh;
+    text-align: left;
+}
+
+#navigation.totoro{
+    background-color: var(--light-blue);
+}
+
+#navigation.chihiro{
+    background-color: var(--pink);
+}
+
+#navigation.castelo{
+    background-color: var(--purple);
+}
+
+/* main */
+
+body {
+    background-color: var(--beige);
+}
+
+
+#headerMain h1{
+    font-family: Bebas Neue;
+    text-align: center;
+    margin-top: -6rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 90px;
+}
+
+#headerMain h1.totoro{
+    color: var(--light-blue);
+}
+
+#headerMain h1.chihiro{
+    color: var(--dark-green);
+}
+
+#headerMain h1.castelo{
+    color: var(--purple);
+}
+
+#headerMain img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35rem;
+}
+
+#headerMain a{
+    font-family: Bebas Neue;
+    padding: 0rem 11rem 1rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+#headerMain a.totoro{
+    color: var(--light-blue);
+}
+
+#headerMain a.chihiro{
+    color: var(--dark-green);
+}
+
+#headerMain a.castelo{
+    color: var(--purple);
+}
+
+/* modal edição*/
+
+.editanime-overlay{
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    visibility: hidden;
+
+    z-index: 1;
+}
+
+.editanime-overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+#editanime{
+    padding: 2rem 4rem; 
+    border-radius: 1rem;
+    position: relative;
+}
+
+#editanime.totoro{
+    background: var(--brown);
+}
+
+#editanime.chihiro{
+    background: var(--pink);
+}
+
+#editanime.castelo{
+    background: var(--purple);
+}
+
+/* anime form */
+#formanime h2{
+    font-family: Bebas Neue;
+    font-size: 3rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    margin-top: 0;
+}
+
+/* modal */
+
+.modal-overlay{
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    visibility: hidden;
+
+    z-index: 1;
+}
+
+.modal-overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+#modal{
+    padding: 2rem 4rem; 
+    border-radius: 1rem;
+    position: relative;
+}
+
+#modal.totoro{
+    background: var(--brown);
+}
+
+#modal.chihiro{
+    background: var(--pink);
+}
+
+#modal.castelo{
+    background: var(--purple);
+}
+
+/* form */
+
+#form{
+    max-width: 500px;
+}
+
+#form h2{
+    font-family: Bebas Neue;
+    font-size: 3rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    margin-top: 0;
+}
+
+input#description{
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+    padding: 1.5rem 5rem;
+    width: 100%;
+}
+
+input#description.totoro{
+    background-color: var(--beige);
+}
+
+input#description.chihiro{
+    background-color: #f7f7f5;
+}
+
+input#description.castelo{
+    background-color: #f7f7f5;
+}
+
+.input-group small{
+    opacity: 0.4;
+}
+
+.input-group.actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group.actions .button,
+.input-group.actions button{
+   width: 48%;
+}
+
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 5rem;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+form img{
+    width: 2rem;
+    margin-top: 0.8rem;
+}
+
+/* form button */
+button#salvar{
+    width: 100%;
+    height: 45px;
+    margin-top: 0.8rem;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: Bebas Neue;
+    font-size: 1rem;
+    color: black;
+
+    padding: 0;
+
+    border-radius: 0.25rem;
+
+    cursor: pointer;
+}
+
+button#salvar.totoro{
+    background: var(--beige);
+}
+button#salvar.chihiro{
+    background: #f7f7f5;
+}
+button#salvar.castelo{
+    background: #f7f7f5;
+}
+
+button:hover{
+    opacity: 0.90;
+}
+
+/* list */
+
+.buttonacao{
+    display: inline;   
+}
+
+.lista{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lista img{
+    width: 2rem;
+}
+
+#lista li{
+    font-family: Archivo Narrow;
+    align-items: center;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    padding: 2rem;
+    width: 70vw;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#lista li.totoro{
+    background-color: var(--light-blue);
+}
+
+#lista li.chihiro{
+    background-color: var(--pink);
+}
+#lista li.castelo{
+    background-color: var(--purple);
+}
+
+/*footer*/
+
+footer {
+    width: 100vw;
+    height: 8vh;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+footer.totoro{
+    background-color: var(--light-blue);
+}
+
+footer.chihiro{
+    background-color: var(--pink);
+}
+
+footer.castelo{
+    background-color: var(--purple);
+}
+
+p{
+    font-family: Bebas Neue;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 544px) {
+#logo{
+     font-size: 1.7rem;
+     margin-right: 0.5rem;
+    }
+
+#headerMain  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 19rem;
+    }
+
+#headerMain h1{
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+#headerMain  a {
+    padding: 0rem 1rem 0rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#navigation{
+    width: 19rem;
+}
+
+#lista li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 82vw;
+}
+
+.lista a {
+    background-color: none;
+}
+
+.lista img {
+    width: 1rem;
+}
+
+label img{
+    width: 4rem;
+    padding-top: 0.8rem;
+}
+
+footer{
+margin-top: 50vh;
+}
+
+} 
