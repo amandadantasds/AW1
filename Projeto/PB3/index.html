@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Anime List</title>
+</head>
+
+<body>
+    <header class="totoro">
+        <label>
+            <img id="icon" src="./assets/icon.png">
+        </label>
+        <h1 id="logo" class="totoro">My anime list</h1>
+        <nav id="navigation" class="totoro">
+            <ul>
+                <li><a onclick="imagemtotoro();" class="totorobotao" href="#">Meu Amigo Totoro</a></li>
+                <li><a onclick="imagemchihiro();" class="chihiro" href="#">Viagem a Chihiro</a></li>
+                <li><a onclick="imagemcastelo();" class="castelo" href="#">Castelo Animado</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="headerMain" class="totoro">
+            <img id="totoroimg" class="circulototoro" src="./assets/circulototoro.png"
+                alt="Personagem Totoro do filme Meu Amigo Totoro" />
+            <h1 class="totoro">Minha Lista</h1>
+            <a href="#" onclick="Modal.open()" class="totoro">+ Adicionar anime</a>
+        </div>
+
+        <div class="modal-overlay">
+            <div id="modal" class="totoro">
+                <div id="form">
+                    <h2>Novo Anime</h2>
+                    <form>
+                        <div class="input-group">
+                            <label class="sr-only" for="description"></label>
+                            <input type="textarea" id="description" class="totoro" name="description" placeholder="">
+                        </div>
+
+                        <div class="input-group actions">
+                            <a href="#" onclick="Modal.close()" class="button cancel"><img src="./assets/x.svg"></a>
+                            <button id="salvar" class="totoro">Salvar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="editanime-overlay">
+            <div id="editanime" class="totoro">
+                <div id="formanime">
+                    <h2 id="idanimeedicao">Edite o texto</h2>
+                    <form>
+                        <div class="input-group">
+                            <label class="nome" for="edit"></label>
+                            <input type="textarea" id="edit" name="description" class="totoro" placeholder="">
+                        </div>
+
+                        <div class="input-group actions">
+                            <a href="#" onclick="editanimefechar.close()" class="button cancel"><img
+                                    src="./assets/x.svg"></a>
+                            <button class="totoro" id="botaosalvaredicao">Salvar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="lista">
+            <ul id="lista">
+            </ul>
+        </div>
+    </main>
+    <footer class="totoro">
+        <p>Amanda Dantas &copy;</p>
+    </footer>    
+</body>
+<script src="./script.js"></script>
+</html>
