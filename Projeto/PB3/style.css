@@ -365,6 +365,10 @@ input#edit.castelo{
     border-width: 0;
 }
 
+input[type=text]{
+    outline:none
+}
+
 form img{
     width: 2rem;
     margin-top: 0.8rem;
