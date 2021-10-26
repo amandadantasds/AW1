@@ -50,8 +50,17 @@ const editanimefechar = {
 let inputAnime = document.querySelector('#description');
 let salvar = document.querySelector('#salvar');
 let lista = document.querySelector('#lista');
+let funmain = document.querySelector('main');
 
-/* validação do form */
+/* validação */
+function valida(){
+    if (lista.value == ''){
+    funmain.classList.add("container")
+    }
+    else{
+        funmain.removeAttribute("class")
+    }
+}
 
 /* adicionar anime com enter */
 inputAnime.addEventListener('keypress', (e) => {
@@ -70,6 +79,7 @@ inputAnime.addEventListener('keypress', (e) => {
 });
 
 /* adicionar anime clicando no botão */
+
 salvar.addEventListener('click', (e) => {
     if (inputAnime.value == '') {
         swal('Digite um nome', '', 'error');
@@ -80,6 +90,7 @@ salvar.addEventListener('click', (e) => {
             id: gerarId(),
         }
         adicionarAnime(anime);
+        valida();
     }
 });
 
@@ -169,6 +180,11 @@ function excluir(idAnime) {
     if (li) {
         lista.removeChild(li);
     }
+    valida();
+}
+
+window.onload = function() {
+    valida();
 }
 
 /* var para troca de cor */
