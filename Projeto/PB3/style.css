@@ -17,19 +17,15 @@
     box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-html {
-  scroll-behavior: smooth;
-}
 
 body{
     height: 100vh;
     overflow-x: hidden;
 }
 
+.container{
+    height: 100vh;
+}
 
 /* header */
 
@@ -325,7 +321,6 @@ input#edit{
     width: 100%;
 }
 
-
 input#edit.totoro{
     background-color: var(--beige);
 }
@@ -337,6 +332,8 @@ input#edit.chihiro{
 input#edit.castelo{
     background-color: #f7f7f5;
 }
+
+input[type=text]{outline:none}
 
 .input-group small{
     opacity: 0.4;
@@ -363,10 +360,6 @@ input#edit.castelo{
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
-}
-
-input[type=text]{
-    outline:none
 }
 
 form img{
@@ -482,7 +475,6 @@ button#botaosalvaredicao.castelo{
 footer {
     width: 100vw;
     height: 8vh;
-    margin-top: 50vh;
     display: flex;
     justify-content: center;
 }
@@ -554,10 +546,6 @@ p{
 label img{
     width: 4rem;
     padding-top: 0.8rem;
-}
-
-footer{
-margin-top: 55vh;
 }
 
 } 
